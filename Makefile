@@ -1,4 +1,4 @@
-PROJ_NAME = act
+PROJ_NAME = ACT
 
 BUILD_DIR = Build
 
