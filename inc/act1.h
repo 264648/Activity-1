@@ -1,5 +1,5 @@
-#ifndef __act1_H_
-#define __act1_H_
+#ifndef __ACT1_H_
+#define __ACT1_H_
 /**
  * @file act1.h
  * @author Sai Rishitha
