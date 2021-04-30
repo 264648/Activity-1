@@ -14,7 +14,7 @@
 #include "act4.h"
 #include<avr/io.h>
 /**
- * @brief Functions
+ * @brief Initialize all the peripherals
  * 
  */
 void p_1(void){
@@ -25,15 +25,18 @@ void p_1(void){
   PORTD|=(1<<PD1);// SET BIT
   
   InitADC();
+    /*Configure PWM registers and pins*/
   InitP();
+    /*Configure UART serial communication pin*/
   InitUART(103);
 }
 int main(void){
     uint16_t temp=0;
+     // Initialize peripherals
     uint16_t i;
     p_1();
     while(1){
-        if(sw1 && sw2){
+        if(sw1 && sw2){//If switch_1 and switch_2 is ON
             led(LED_ON);//LED is ON
             temp=ReadADC(0);
             OCR1A=temp;
