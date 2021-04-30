@@ -1,5 +1,5 @@
 /**
- * @file ReadADC.c
+ * @file act2.c
  * @author Sai Rishitha
  * @brief 
  * @version 0.1
