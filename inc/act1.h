@@ -1,7 +1,7 @@
-#ifndef __LEDSTAT_H_
-#define __LEDSTAT_H_
+#ifndef __act1_H_
+#define __act1_H_
 /**
- * @file ledstat.h
+ * @file act1.h
  * @author Sai Rishitha
  * @brief 
  * @version 0.1
@@ -15,7 +15,7 @@
  * Include files
  */ 
 #include <avr/io.h>
-#include "ledstat.h"
+#include "act1.h"
 
  /**
  * @brief Macro definitions
