@@ -8,16 +8,15 @@
  * @copyright Copyright (c) 2021
  * 
  */
-#ifndef __act3_H__
-#define __act3_H__
+#ifndef __ACT3_H__
+#define __ACT3_H__
 #include<avr/io.h>
 /**
  * @brief Reading Analog values
  * 
  * @param ch 
- * @return uint16_t 
  */
-char OutP(uint16_t );
+char OutP(uint16_t ch);
 void InitP();
 #endif
 /**
