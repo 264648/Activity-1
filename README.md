@@ -1,5 +1,6 @@
 # EmbeddedC
 [![Cppcheck-actions](https://github.com/264648/Activity-1/actions/workflows/Cppcheck.yml/badge.svg)](https://github.com/264648/Activity-1/actions/workflows/Cppcheck.yml)
+[![Cppcheck-actions](https://github.com/264648/Activity-1/actions/workflows/Cppcheck.yml/badge.svg)](https://github.com/264648/Activity-1/actions/workflows/Cppcheck.yml)
 ## Activity 1
 ![Act1](https://user-images.githubusercontent.com/81163246/116665565-90e57c00-a9b7-11eb-9a31-bb0ca46e29e1.png)
 ## Activity 2
