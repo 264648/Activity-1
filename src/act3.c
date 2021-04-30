@@ -1,5 +1,5 @@
 /**
- * @file outPWM.c
+ * @file act3.c
  * @author Sai Rishitha
  * @brief 
  * @version 0.1
@@ -9,7 +9,7 @@
  * 
  */
 #include <avr/io.h>
-#include "outPWM.h"
+#include "act3.h"
 #include<util/delay.h>
 /**
  * @file outPWM.c
@@ -22,9 +22,9 @@
  * 
  */
 #include<avr/io.h>
-#include "outPWM.h"
+#include "act3.h"
 /**
- * @brief Initialization
+ * @brief Port initialization
  * 
  */
 void InitP()
