@@ -8,8 +8,8 @@
  * @copyright Copyright (c) 2021
  * 
  */
-#ifndef __act2_H__
-#define __act2_H__
+#ifndef __ACT2_H__
+#define __ACT2_H__
 /**
  * @brief Reading the analog input and returning a digital 8bit value
  * 
