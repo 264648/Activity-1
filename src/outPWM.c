@@ -1,17 +1,35 @@
+/**
+ * @file outPWM.c
+ * @author Sai Rishitha
+ * @brief 
+ * @version 0.1
+ * @date 2021-04-30
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #include <avr/io.h>
+#include "outPWM.h"
 #include<util/delay.h>
- void InitADC()
- {
-     ADMUX=(1<<REFS0);
-     ADCSRA=(1<<ADEN)|(7<<ADPS0);
- }
- uint16_t ReadADC(uint8_t ch)
- {
-     ADMUX&=0xf8;
-     ch=ch&0b00000111;
-     ADMUX|=ch;
-     ADCSRA|=(1<<ADSC);
-     while(!(ADCSRA&(1<<ADIF)));
-     ADCSRA|=1<<ADIF;
-     return(ADC);
- }
+/**
+ * @file outPWM.c
+ * @author Sai Rishitha
+ * @brief 
+ * @version 0.1
+ * @date 2021-04-30
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
+#include<avr/io.h>
+#include "outPWM.h"
+/**
+ * @brief Initialization
+ * 
+ */
+void InitP()
+{
+    TCCR1A |=(1<<COM1A1)|(1<<WGM11) | (1<<WGM10);
+TCCR1B|=(1<<WGM12) | (1<<CS12) | (1<<CS10);
+DDRB |=1<<PB1;
+}
