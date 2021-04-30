@@ -8,7 +8,7 @@
 ## Activity 3
 ![Act3](https://user-images.githubusercontent.com/81163246/116665434-68f61880-a9b7-11eb-9e50-94d9e1bc2571.png)
 ## Activity 4
-![Act4]!(https://user-images.githubusercontent.com/81163246/116685015-57206f80-a9cf-11eb-84e1-7d6fb75ee8ff.png)
+![Act4](https://user-images.githubusercontent.com/81163246/116685015-57206f80-a9cf-11eb-84e1-7d6fb75ee8ff.png)
 
 
 
