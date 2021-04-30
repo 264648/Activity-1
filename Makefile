@@ -9,7 +9,6 @@ src/act2.c\
 src/act3.c\
 src/act4.c\
 
-
 # All header file paths
 INC = -I inc
 
